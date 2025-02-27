@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #505090;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #6c757d;
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #dcdcdc !important;
+}
+
+/* Team Section */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #505090;
+  margin-bottom: 20px;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #505090;
+  margin-bottom: 10px;
+}
+
+.text-center h4 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.text-center p {
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}

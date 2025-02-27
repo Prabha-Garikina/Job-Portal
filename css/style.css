@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #505090;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #8db1cf;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  border: 5px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #50555a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

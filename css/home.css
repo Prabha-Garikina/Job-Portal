@@ -1,0 +1,99 @@
+/* General Page Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+}
+/* Header */
+header {
+  background-color: #7a8bd2; /* Blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #6c757d; /* Dark Gray */
+}
+
+.nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav .nav-link:hover {
+  text-decoration: underline;
+  color: #95adeb; /* Yellow */
+}
+
+/* Search Section */
+.search {
+  background: rgb(190, 213, 245);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search input {
+  border: 2px solid #5b52b9;
+  border-radius: 5px;
+}
+
+.search input:focus {
+  border-color: #6952d8;
+  box-shadow: 0 0 5px rgba(86, 139, 183, 0.5);
+}
+
+.search button {
+  background-color: blue; /* Bootstrap primary blue */
+  border: none;
+  font-weight: bold;
+}
+
+.search button:hover {
+  background-color: #0056b3;
+}
+
+/* Job Listings */
+.job-listings {
+  background: rgb(190, 213, 245);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card .btn-success {
+  background-color: #7575dc;
+  border: none;
+  font-weight: bold;
+}
+
+.card .btn-success:hover {
+  background-color: #5798d5;
+}
+
+/* Footer */
+footer {
+  background: grey;
+  color: rgb(190, 213, 245);
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
